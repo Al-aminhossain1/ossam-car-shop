@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "BMW-35",
+        "price": "50000",
+        "img": "images/blue-sport.jpg"
+    },
+    {
+        "id": "2",
+        "name": "BMW-35",
+        "price": "50000",
+        "img": "images/bmw-5-series.png"
+    },
+    {
+        "id": "3",
+        "name": "BMW-35",
+        "price": "50000",
+        "img": "images/car-parking.png"
+    },
+    {
+        "id": "4",
+        "name": "BMW-35",
+        "price": "50000",
+        "img": "images/mockup-luxury-car.png"
+    },
+    {
+        "id": "5",
+        "name": "BMW-35",
+        "price": "50000",
+        "img": "images/offroader-jeep-parking.jpg"
+    },
+    {
+        "id": "6",
+        "name": "BMW-35",
+        "price": "50000",
+        "img": "images/premium-city-crossover-.png"
+    },
+    {
+        "id": "7",
+        "name": "BMW-35",
+        "price": "50000",
+        "img": "images/red-luxury.jpg"
+    },
+    {
+        "id": "8",
+        "name": "BMW-35",
+        "price": "50000",
+        "img": "images/three-dimensional-car.png"
+    },
+    {
+        "id": "10",
+        "name": "special car",
+        "price": "50000",
+        "img": "https://img.freepik.com/free-vector/automobiles-models-icon-collection_74855-5435.jpg?t=st=1648226412~exp=1648227012~hmac=63c752f9d43274e2e79d2f079d61b69bc3e56e91994023d6a6c9bec263822508&w=900"
+    }
+]

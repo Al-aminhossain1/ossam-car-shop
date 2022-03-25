@@ -1,0 +1,28 @@
+.card{
+   
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+}
+.car-container img{
+    border-radius: 10px;
+    width: 320px;
+    height: 220px;
+}
+.btn-cart{
+    background-color:lightpink;
+    border-radius: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+.add-card{
+    background-color:lightpink;
+    padding: 10px;
+    border:none;
+    
+    
+    
+}
