@@ -6,6 +6,8 @@ import './Shop.css'
 const Shop = () => {
     const [cars, setCars] = useState([])
     const [cart, setCart] = useState([])
+
+
     useEffect(() => {
         fetch('Fackdata/Products.json')
             .then(res => res.json())
@@ -20,6 +22,16 @@ const Shop = () => {
     function handelRemoveToCart() {
         const nowCart = [];
         setCart(nowCart)
+    }
+    function handelChoseToCart() {
+        const choseCart = [...cart];
+        const randomCart = Math.floor(Math.random() * choseCart.length);
+        const yourCart = choseCart[randomCart];
+        const choseForMe = [yourCart]
+        setCart(choseForMe);
+
+
+
     }
 
     return (
@@ -36,12 +48,16 @@ const Shop = () => {
             <div className='cart-container'>
                 <h1>Order summary</h1>
                 {
-                    cart.map(product => <Cart cart={product} ></Cart>)
+                    cart.map(product => <Cart cart={product}
+                        handelChoseToCart={handelChoseToCart}
+                    ></Cart>)
                 }
 
-                <button className='remove-btn'>chose 01 for me</button>
+                <button className='remove-btn' onClick={handelChoseToCart}>chose 01 for me</button>
                 <button className='remove-btn' onClick={handelRemoveToCart}>Remove item</button>
+
             </div>
+
 
         </div>
     );
