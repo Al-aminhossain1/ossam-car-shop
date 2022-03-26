@@ -9,14 +9,17 @@ const Shop = () => {
 
 
     useEffect(() => {
-        fetch('Fackdata/Products.json')
+        fetch('Products.json')
             .then(res => res.json())
             .then(data => setCars(data))
     }, [])
     function handelAddToCart(car) {
 
         const newCart = [...cart, car];
-        setCart(newCart)
+        if (newCart.length < 5) {
+            setCart(newCart)
+        }
+
 
     }
     function handelRemoveToCart() {
