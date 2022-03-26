@@ -13,3 +13,14 @@
 .cart-container{
     background-color: rgb(177, 231, 231);
 }
+.remove-btn{
+    background-color: rgb(124, 124, 231);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.remove-btn:hover{
+    background-color: blue;
+}

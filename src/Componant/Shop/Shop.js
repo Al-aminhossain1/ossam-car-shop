@@ -5,15 +5,16 @@ import './Shop.css'
 
 const Shop = () => {
     const [cars, setCars] = useState([])
-    const [cart, setcart] = useState([])
+    const [cart, setCart] = useState([])
     useEffect(() => {
         fetch('Fackdata/Products.json')
             .then(res => res.json())
             .then(data => setCars(data))
     }, [])
     function handelAddToCart(car) {
+
         const newCart = [...cart, car];
-        setcart(newCart)
+        setCart(newCart)
 
     }
 
@@ -21,12 +22,21 @@ const Shop = () => {
         <div className='shop-container'>
             <div className='product-container'>
                 {
-                    cars.map(car => <Car car={car} handelAddToCart={handelAddToCart} ></Car>)
+                    cars.map(car => <Car car={car}
+                        key={car.id}
+                        handelAddToCart={handelAddToCart}
+                    ></Car>)
                 }
 
             </div>
             <div className='cart-container'>
-                <Cart cart={cart} ></Cart>
+                <h1>Order summary</h1>
+                {
+                    cart.map(product => <Cart cart={product} ></Cart>)
+                }
+
+                <button className='remove-btn'>chose 01 for me</button>
+                <button className='remove-btn'>Remove item</button>
             </div>
 
         </div>
