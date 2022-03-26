@@ -21,8 +21,8 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 0;
     padding: 10px;
+    bottom: 0;
     background-color: lightsalmon;
     border-radius: 0px 0px 8px 8px;
     border: none;

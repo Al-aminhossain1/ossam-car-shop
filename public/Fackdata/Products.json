@@ -1,56 +1,56 @@
 [
     {
-        "id": "1",
-        "name": "BMW-35",
-        "price": "50000",
+        "id": "101",
+        "name": "blue-sport-sedan",
+        "price": "75000",
         "img": "https://img.freepik.com/free-photo/blue-sport-sedan-parked-yard_114579-5078.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     },
     {
-        "id": "2",
-        "name": "prado",
-        "price": "50000",
+        "id": "102",
+        "name": "Lamborghini Sian Roadster",
+        "price": "60000",
         "img": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     },
     {
-        "id": "3",
-        "name": "Jaguar",
-        "price": "50000",
+        "id": "103",
+        "name": "Pagani Huayra BC Roadster",
+        "price": "80000",
         "img": "https://img.freepik.com/free-photo/car-parking-road-sun-set-background_10541-3979.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     },
     {
-        "id": "4",
-        "name": "merciduis",
-        "price": "50000",
+        "id": "104",
+        "name": "Koenigsegg Jesko Absolut",
+        "price": "65000",
         "img": "https://img.freepik.com/free-psd/mockup-luxury-car_110488-1898.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     },
     {
-        "id": "5",
-        "name": "BMW-35",
-        "price": "50000",
+        "id": "105",
+        "name": "Tesla Model 3",
+        "price": "90000",
         "img": "https://img.freepik.com/free-photo/white-offroader-jeep-parking_114579-4007.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     },
     {
-        "id": "6",
-        "name": "BMW-35",
-        "price": "50000",
+        "id": "106",
+        "name": "Audi e-tron",
+        "price": "87000",
         "img": "https://img.freepik.com/free-photo/white-premium-city-crossover-white_101266-526.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     },
     {
-        "id": "7",
-        "name": "BMW-35",
-        "price": "50000",
+        "id": "107",
+        "name": "Jaguar I-Pace",
+        "price": "85000",
         "img": "https://img.freepik.com/free-vector/vector-cars-bmw-5-series-rally-car-bmw_104045-798.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     },
     {
-        "id": "8",
-        "name": "BMW-35",
-        "price": "50000",
+        "id": "108",
+        "name": "Volkswagen ID.4",
+        "price": "75000",
         "img": "https://img.freepik.com/free-psd/three-dimensional-image-car_53876-1716.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.1.6815193.1645097118"
     },
     {
-        "id": "9",
+        "id": "109",
         "name": "White sports car",
-        "price": "50000",
+        "price": "55000",
         "img": "https://img.freepik.com/free-photo/white-modern-sport-car-parking-road_114579-4025.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     }
 ]

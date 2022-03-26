@@ -38,8 +38,9 @@ const Shop = () => {
         <div className='shop-container'>
             <div className='product-container'>
                 {
-                    cars.map(car => <Car car={car}
+                    cars.map(car => <Car
                         key={car.id}
+                        car={car}
                         handelAddToCart={handelAddToCart}
                     ></Car>)
                 }
@@ -48,7 +49,9 @@ const Shop = () => {
             <div className='cart-container'>
                 <h1>Order summary</h1>
                 {
-                    cart.map(product => <Cart cart={product}
+                    cart.map(product => <Cart
+                        key={product.id}
+                        cart={product}
                         handelChoseToCart={handelChoseToCart}
                     ></Cart>)
                 }
