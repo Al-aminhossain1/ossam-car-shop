@@ -7,19 +7,19 @@
     },
     {
         "id": "2",
-        "name": "BMW-35",
+        "name": "prado",
         "price": "50000",
         "img": "images/bmw-5-series.png"
     },
     {
         "id": "3",
-        "name": "BMW-35",
+        "name": "jaguar",
         "price": "50000",
         "img": "images/car-parking.png"
     },
     {
         "id": "4",
-        "name": "BMW-35",
+        "name": "mercidis",
         "price": "50000",
         "img": "images/mockup-luxury-car.png"
     },

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBasketShopping, faShoppingBag } from '@fortawesome/free-solid-svg-icons'
+import { faBasketShopping, } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import './Car.css'
 const Car = ({ car, handelAddToCart }) => {

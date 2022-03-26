@@ -17,6 +17,10 @@ const Shop = () => {
         setCart(newCart)
 
     }
+    function handelRemoveToCart() {
+        const nowCart = [];
+        setCart(nowCart)
+    }
 
     return (
         <div className='shop-container'>
@@ -36,7 +40,7 @@ const Shop = () => {
                 }
 
                 <button className='remove-btn'>chose 01 for me</button>
-                <button className='remove-btn'>Remove item</button>
+                <button className='remove-btn' onClick={handelRemoveToCart}>Remove item</button>
             </div>
 
         </div>

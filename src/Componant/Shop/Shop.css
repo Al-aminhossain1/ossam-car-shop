@@ -24,3 +24,9 @@
 .remove-btn:hover{
     background-color: blue;
 }
+
+@media screen and (max-width:480px) {
+    .product-container{
+        grid-template-columns: 1fr;
+    }
+}

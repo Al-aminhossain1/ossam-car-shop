@@ -7,19 +7,19 @@
     },
     {
         "id": "2",
-        "name": "BMW-35",
+        "name": "prado",
         "price": "50000",
         "img": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     },
     {
         "id": "3",
-        "name": "BMW-35",
+        "name": "Jaguar",
         "price": "50000",
         "img": "https://img.freepik.com/free-photo/car-parking-road-sun-set-background_10541-3979.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     },
     {
         "id": "4",
-        "name": "BMW-35",
+        "name": "merciduis",
         "price": "50000",
         "img": "https://img.freepik.com/free-psd/mockup-luxury-car_110488-1898.jpg?size=626&ext=jpg&uid=R67488078&ga=GA1.2.6815193.1645097118"
     },
